@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>JavaScript Patterns</title>
+		<meta charset="utf-8">
+	</head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<body class="container">
+	    <h1>Stocker Tracker - Đồng Tiến Dũng - CH1502028</h1>
+	    
+	    
+	    <form class="form-inline">
+          <div class="form-group">
+            <label for="exampleInputName2">Add new stocker</label>
+            <input type="text" class="form-control" id="stocker-name" placeholder="Stoker name">
+          </div>
+          
+          <button type="submit" id="add-new-stocker-btn" class="btn btn-success">Add</button>
+          <span id="error-lbl" class="text-danger hidden"> </span>
+        </form> <!-- end form -->
+        </br>
+        
+	    <table class="table table-striped">
+	        <thead>
+	        <tr class="success">
+	            <td>Mã Chứng Khoán</td><td>Giá Mua</td><td>Giá Hiện Tại</td><td>Thay Đổi</td>
+	        </tr>
+	        </thead>
+	        <tbody>
+	        <tr id='IBM'>
+	            <td class='name'>IBM</td>
+	            <td class='old-price'>60</td>
+	            <td class='new-price'>10</td>
+	            <td class='percent'>12%</td>
+	        </tr>
+	         <tr id='Google'>
+	            <td class='name'>Google</td>
+	            <td class='old-price'>30</td>
+	            <td class='new-price'>40</td>
+	            <td class='percent'>-11%</td>
+	        </tr>
+	        </tbody>
+	         
+	    </table>
+	    
+	    
+	    <script src="js/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
