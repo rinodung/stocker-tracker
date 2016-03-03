@@ -2,7 +2,7 @@
 Stock tracker is a Javascript Observer Design Pattern.
 
 #Demo 
-https://stock-tracker-rinodung.c9users.io
+http://rinodung.github.io/stocker-tracker/
 
 #Source code
 https://github.com/rinodung/stocker-tracker
